@@ -18,11 +18,11 @@ target_link_libraries(icxx_core
     hardware_i2c
     hardware_timer
 
-    lcd_1602_i2c
-    ssd1306_i2c
+    lcd_1602_i2c_lib
+    ssd1306_i2c_lib
 
-    # Falls FreeRTOS aktiviert:
-    # FreeRTOS-Kernel
+    FreeRTOS-Kernel
+
 )
 
 # Includepfade (optional)

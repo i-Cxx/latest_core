@@ -34,6 +34,7 @@ pico_sdk_init()
 
 # Optional: FreeRTOS hinzufügen
 # add_subdirectory(external/FreeRTOS-Kernel)
+add_subdirectory(external/FreeRTOS-Kernel)
 
 # Bibliotheken (Treiber)
 add_subdirectory(lib)
