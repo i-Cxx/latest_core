@@ -24,5 +24,5 @@ add_subdirectory(lcd_1602_i2c)
 add_subdirectory(ssd1306_i2c)
 
 # Binde Blink Biliothek ein
-add_subdirectory(blink)
+#add_subdirectory(blink)
 
